@@ -122,6 +122,18 @@ plt.show()
 
 # %% [markdown]
 # ## 5. Creación de variables (Integrante A)
+# %%
+# Crear una columna con la duración en minutos
+df["duration_min"] = df["duration_ms"] / 60000
+
+# %%
+# Crear una columna para identificar canciones populares
+promedio = df["popularity"].mean()
+df["es_popular"] = df["popularity"] >= promedio
+
+# %%
+# Mostrar las nuevas variables
+print(df[["track_name", "duration_min", "popularity", "es_popular"]].head())
 
 # %% [markdown]
 # ## 6. Filtrado y condiciones en pandas (Integrante B)
