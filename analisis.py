@@ -140,6 +140,19 @@ print(df[["track_name", "duration_min", "popularity", "es_popular"]].head())
 
 # %% [markdown]
 # ## 7. Agrupación con groupby (Integrante A)
+# %%
+# Calcular la popularidad promedio por género
+popularidad_genero = df.groupby("genre")["popularity"].mean()
+
+print("Popularidad promedio por género:")
+print(popularidad_genero)
+
+# %%
+# Contar la cantidad de canciones por género
+cantidad_genero = df.groupby("genre")["track_name"].count()
+
+print("Cantidad de canciones por género:")
+print(cantidad_genero)
 
 # %% [markdown]
 # ## 8. Visualizaciones (Integrante B)
