@@ -1,8 +1,8 @@
 # Proyecto Ciencia de Datos
 
 ## Integrantes
-- Sara (Integrante A)
-- Tomás (Integrante B)
+- Sara Acevedo (Integrante A)
+- Tomás Romero (Integrante B)
 
 ## Fuente de los datos
 El conjunto de datos utilizado en este proyecto fue obtenido de Kaggle:
