@@ -73,6 +73,49 @@ plt.show()
 
 # %% [markdown]
 # ## 3. Identificación de outliers (Integrante A)
+# %%
+# Revisar valores atípicos en la duración
+Q1 = df["duration_ms"].quantile(0.25)
+Q3 = df["duration_ms"].quantile(0.75)
+IQR = Q3 - Q1
+
+limite_inferior = Q1 - 1.5 * IQR
+limite_superior = Q3 + 1.5 * IQR
+
+outliers_duracion = df[(df["duration_ms"] < limite_inferior) |
+                       (df["duration_ms"] > limite_superior)]
+
+print("Outliers en duración:", len(outliers_duracion))
+
+# %%
+# Revisar valores atípicos en la popularidad
+Q1 = df["popularity"].quantile(0.25)
+Q3 = df["popularity"].quantile(0.75)
+IQR = Q3 - Q1
+
+limite_inferior = Q1 - 1.5 * IQR
+limite_superior = Q3 + 1.5 * IQR
+
+outliers_popularidad = df[(df["popularity"] < limite_inferior) |
+                          (df["popularity"] > limite_superior)]
+
+print("Outliers en popularidad:", len(outliers_popularidad))
+
+# %%
+# Mostrar las gráficas
+plt.boxplot(df["duration_ms"])
+plt.title("Outliers en duración")
+plt.show()
+
+plt.boxplot(df["popularity"])
+plt.title("Outliers en popularidad")
+plt.show()
+
+# %% [markdown]
+# Se encontraron 107 valores atípicos en la duración
+# y 36 en la popularidad. Estos valores se identificaron,
+# pero no se eliminaron del dataset.
+
 
 # %% [markdown]
 # ## 4. Valores inconsistentes y duplicados (Integrante B)
