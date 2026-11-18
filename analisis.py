@@ -157,5 +157,46 @@ print(cantidad_genero)
 # %% [markdown]
 # ## 8. Visualizaciones (Integrante B)
 
+
 # %% [markdown]
 # ## 9. Conclusiones finales (Integrante A)
+#
+# 1. El análisis de los 1.500 registros permitió identificar
+# que la base de datos presenta una estructura adecuada para
+# estudiar las características musicales. En la revisión
+# inicial no se encontraron valores faltantes ni canciones
+# con track_id duplicado. Sin embargo, en la revisión de Tomás
+# se reportaron algunos valores nulos puntuales y se aplicaron
+# procedimientos de limpieza y normalización de textos.
+# También se identificaron 107 valores atípicos en la duración
+# y 36 en la popularidad, los cuales se conservaron para no
+# perder información relevante.
+#
+# 2. La comparación entre los géneros Acoustic y Afrobeat
+# mostró diferencias en su representación y popularidad.
+# Acoustic presentó 968 canciones y una popularidad promedio
+# de 16.43, mientras que Afrobeat presentó 532 canciones y
+# un promedio de 10.98. Esto indica que Acoustic tuvo mayor
+# representación y popularidad promedio en la muestra inicial.
+#
+# 3. Los filtros permitieron identificar diferentes perfiles
+# musicales. Se encontraron 57 canciones con alta energía
+# y bailabilidad, 109 con alta acústica, 234 con duración
+# superior a cinco minutos y 143 con tempo superior a 160 BPM.
+# Estos resultados muestran la variedad de características
+# musicales presentes en las canciones analizadas.
+#
+# 4. La creación de las variables duration_min y es_popular
+# permitió ampliar el análisis de la información. La primera
+# facilita interpretar la duración de las canciones en minutos,
+# mientras que la segunda permite clasificarlas según su
+# popularidad con respecto al promedio general.
+#
+# 5. Las visualizaciones complementaron los resultados
+# estadísticos. El histograma permitió observar la distribución
+# de la energía, el diagrama de dispersión mostró la relación
+# entre tempo y bailabilidad, y los gráficos por género
+# facilitaron comparar la cantidad y popularidad de las
+# canciones. La matriz de correlación permitió explorar
+# posibles relaciones entre las características musicales.
+
