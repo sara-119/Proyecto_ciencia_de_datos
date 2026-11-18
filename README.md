@@ -25,7 +25,7 @@ El conjunto de datos permite analizar diferentes características musicales y es
 Para este proyecto se trabajó con una muestra de los primeros **1.500 registros** del archivo original, con el fin de facilitar el procesamiento y análisis de los datos.
 
 ## Estructura de los datos
-El conjunto de datos utilizado contiene 1.500 registros y 20 variables originales.
+El conjunto de datos utilizado contiene 1.500 registros y 20 columnas, de las cuales 19 corresponden a características del dataset original y una corresponde al índice original (Unnamed: 0).
 
 La información corresponde a canciones de Spotify e incluye datos sobre artistas, nombres de canciones, géneros musicales, popularidad y características musicales como duración, energía, ritmo y acústica.
 
@@ -37,7 +37,6 @@ Se identificaron los siguientes tipos de variables:
 Durante el análisis también se crearon dos variables nuevas: `duration_min` y `es_popular`.
 
 ## Diccionario de datos
-### Diccionario de datos
 
 - **Unnamed: 0:** Índice original del registro.
 - **artist_name:** Nombre del artista.
