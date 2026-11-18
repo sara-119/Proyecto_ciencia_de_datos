@@ -68,4 +68,13 @@ Durante el análisis también se crearon dos variables nuevas: `duration_min` y 
 - `cuadernos/`: cuadernos de exploración de cada integrante.
 
 ## Conclusiones
-Pendientes.
+
+1. El análisis de los 1.500 registros permitió evaluar la calidad de la información mediante la revisión de valores faltantes, duplicados, inconsistencias y valores atípicos. Se identificaron 107 valores atípicos en la duración y 36 en la popularidad, que se conservaron para mantener información potencialmente relevante para el estudio.
+
+2. La comparación entre los géneros Acoustic y Afrobeat mostró que Acoustic tuvo una mayor representación en la muestra inicial, con 968 canciones frente a 532 de Afrobeat. También presentó una popularidad promedio superior: 16.43 frente a 10.98. Esto evidencia diferencias en la distribución y popularidad de los géneros analizados.
+
+3. Los filtros aplicados permitieron identificar distintos perfiles musicales: 57 canciones con alta energía y bailabilidad, 109 con alta acústica, 234 con duración superior a cinco minutos y 143 con tempo superior a 160 BPM. Estos resultados reflejan la diversidad de características musicales presentes en el conjunto de datos.
+
+4. La creación de las variables `duration_min` y `es_popular` facilitó el análisis de la duración y la popularidad de las canciones. Estas transformaciones permitieron obtener información adicional y realizar comparaciones de una manera más comprensible.
+
+5. Las visualizaciones complementaron el análisis al mostrar la distribución de la energía, la relación entre tempo y bailabilidad, las diferencias entre géneros y el comportamiento de la popularidad. En conjunto, los resultados permiten comprender mejor las características musicales de las canciones y explorar posibles relaciones entre ellas.
