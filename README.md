@@ -70,4 +70,4 @@ Durante el análisis también se crearon dos variables nuevas: `duration_min` y 
 ## Conclusiones
 Pendientes.
 
-##Un trabajo mejor articulado con codespaces.
+# Un trabajo mejor articulado con codespaces.
