@@ -70,3 +70,6 @@ Durante el análisis también se crearon dos variables nuevas: `duration_min` y 
 
 ## Conclusiones
 Pendientes.
+# Texto Rama Tomas
+
+Un trabajo estrucurado por parte de Tomás Romero 
